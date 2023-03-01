@@ -1,0 +1,84 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px gray solid;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    height: 80px;
+}
+.right-head{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.blank-article{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px; 
+    padding-bottom: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto 15px;
+    color: white;
+    justify-content: flex-end;
+}
+.article-foot{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.butt{
+    height: 30px;
+    width: 50px;
+}
+.hanging-article{
+    border-bottom: 1px gray solid;
+    margin-left: 10px;
+}
+#trailing-art{
+    border-bottom: none;
+    padding-bottom: 35px;
+}
+.divider{
+    margin-left: 10px
+}
+img{
+    max-width: 100%;
+    display: flex;
+    border-radius: 10px;
+}
+.graphic-article{
+    margin: auto 15px;
+    margin-bottom: 30px;
+}
+.profile{
+    border-radius: 15px;
+}
+.name{
+    display: flex;
+}
+button{
+    border: none;
+    border-radius: 5px;
+}
+hr{
+    color: gray;
+    margin: auto 15px;
+}
+#buttons{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto 15px;
+    margin-bottom: 40px;
+}
