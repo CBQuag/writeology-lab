@@ -34,8 +34,11 @@ header{
 }
 .article-foot{
     display: flex;
-    width: 60%;
-    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    padding-top: 0;
+    gap: 10%;
 }
 .butt{
     height: 30px;
@@ -43,33 +46,49 @@ header{
 }
 .hanging-article{
     border-bottom: 1px gray solid;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+.article-text{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.article-hl{
+    margin: 10px auto;
 }
 #trailing-art{
     border-bottom: none;
     padding-bottom: 35px;
 }
 .divider{
-    margin-left: 10px
+    margin-left: 15px
 }
 img{
     max-width: 100%;
-    display: flex;
+}
+.article-img{    
     border-radius: 10px;
+}
+.cat{
+    margin-bottom: 5px;
 }
 .graphic-article{
     margin: auto 15px;
     margin-bottom: 30px;
 }
 .profile{
+    width: 30px;
+    height: 30px;
     border-radius: 15px;
 }
 .name{
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 button{
     border: none;
     border-radius: 5px;
+    height: 30px;
 }
 hr{
     color: gray;
@@ -77,8 +96,101 @@ hr{
 }
 #buttons{
     display: flex;
-    width: 70%;
-    justify-content: space-between;
+    width: 240px;
+    justify-content: space-around;
     margin: auto 15px;
     margin-bottom: 40px;
+}
+.quick-art{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8% 15px;
+}
+.quick-pic{
+    height: 150px;
+    border-radius: 10px;
+}
+#dark-area{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#sub{
+    color: white;
+    text-align: center;
+}
+#sub-text{
+    color: white;
+    text-align: center;
+}
+#unlock{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+#uhh{
+    text-align: center;
+}
+#other-sub{
+    text-align: center;
+}
+.search-art{
+    margin-left: 15px;
+}
+#searchbar{
+    border: 1px gray solid;
+    border-radius: 10px;
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    margin-right: 15px;
+    align-items: center;
+}
+#srch{
+    margin-left: 20px;
+}
+#magnify{
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+#subutt{
+background-color: black;
+height: 60px;
+width: 340px;
+border-radius: 10px;
+color: white;
+font-weight: 600;
+font-size: larger;
+margin-right: 15px;
+margin-top: 15px;
+}
+#socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sicons{
+    width: 200px;
+}
+#sub-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+#finally{
+    text-align: center;
+}
+#search-area{
+    display: flex;
+    justify-content: center;
 }
