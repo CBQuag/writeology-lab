@@ -1,0 +1,92 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px gray solid;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    height: 80px;
+}
+.right-head{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.blank-article{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px; 
+    padding-bottom: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto 15px;
+    color: white;
+    justify-content: flex-end;
+}
+.article-foot{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    padding-top: 0;
+    gap: 10%;
+}
+.hanging-article{
+    border-bottom: 1px gray solid;
+    margin-left: 15px;
+}
+#trailing-art{
+    border-bottom: none;
+    padding-bottom: 35px;
+}
+#Social{
+    display: none;
+}
+#head-links{
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+    #featured{
+        flex-direction: row;
+        align-items: center;
+    }
+    #hanging{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+    }
+    .hanging-article{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blank-article{
+        height: 500px;
+    }
+    .right-head{
+        
+    }
+    #Social{
+        display: block;
+        width:20%
+    }
+    #head-links{
+        display:flex;
+        justify-content: space-around;
+    }
+    #center-thing{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-head{
+        width: 20%;
+    }
+}

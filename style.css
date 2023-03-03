@@ -1,52 +1,10 @@
 body{
     font-family: 'Manrope', sans-serif;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px gray solid;
-    margin-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 0px;
-    height: 80px;
-}
-.right-head{
-    display: flex;
-    width: 35%;
-    justify-content: space-between;
-}
-.blank-article{
-    max-width: 100%;
-    aspect-ratio: 1/1;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
-    padding-right: 25px; 
-    padding-bottom: 30px;
-    background-color: black;
-    border-radius: 10px;
-    margin: auto 15px;
-    color: white;
-    justify-content: flex-end;
-}
-.article-foot{
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    font-weight: 700;
-    padding-top: 0;
-    gap: 10%;
-}
+
 .butt{
     height: 30px;
     width: 50px;
-}
-.hanging-article{
-    border-bottom: 1px gray solid;
-    margin-left: 15px;
 }
 .article-text{
     margin-top: 10px;
@@ -55,26 +13,17 @@ header{
 .article-hl{
     margin: 10px auto;
 }
-#trailing-art{
-    border-bottom: none;
-    padding-bottom: 35px;
-}
 .divider{
     margin-left: 15px
 }
 img{
     max-width: 100%;
 }
-.article-img{    
-    border-radius: 10px;
-}
+
 .cat{
     margin-bottom: 5px;
 }
-.graphic-article{
-    margin: auto 15px;
-    margin-bottom: 30px;
-}
+
 .profile{
     width: 30px;
     height: 30px;
@@ -193,4 +142,9 @@ margin-top: 15px;
 #search-area{
     display: flex;
     justify-content: center;
+}
+
+#featured{
+    display: flex;
+    flex-direction: column;
 }
